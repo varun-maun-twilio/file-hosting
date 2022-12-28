@@ -1,0 +1,49 @@
+{
+    "routing": {
+        "brand": "BOSCH",
+        "language": "FR",
+        "country": "FR"
+    },
+    "primaryColor": "#005691",
+    "welcomeMessage": "Bienvenue  {{name}}!  Un agent sera à votre disposition dans un instant.",
+    "headerText": "Un conseiller est disponible en chat",
+    "concierge": {
+        "isEnabled": true,
+        "title": "Service Intervention",
+        "byline": "Posez-nous votre question",
+        "avatarUrl": "https://d1a73vvqvlgmvs.cloudfront.net/static/images/j9PDZBnk6HyX7lD99r3vAO9JHKJPayfF-concierge.jpg"
+    },
+    "preengagementForm": {
+        "isEnabled": true,
+        "titleText": "Bonjour!",
+        "subtitleText": "Nous sommes là pour vous aider. Veuillez nous donner quelques informations pour commencer",
+        "formFieldLabels": {
+            "phoneNumber": "Numéro de téléphone:",
+            "name": "Nom:",
+            "email": "Email:",
+            "query": "Message:",
+            "phoneNumberPlaceholder": "S'il vous plaît, entrez votre numéro de téléphone",
+            "namePlaceholder": "S'il vous plaît, entrez votre nom",
+            "emailPlaceholder": "S'il vous plaît, entrez votre email",
+            "queryPlaceholder": "S'il vous plaît, entrez votre message"
+        },
+        "startChatText": "Démarrer le chat",
+        "hiddenFields": [
+            
+        ]
+    },
+    "fileAttachment":{
+        "enabled":true,   
+        "maxFileSize": 10485760,
+        "acceptedExtensions": ["jpg", "jpeg", "png", "pdf", "gif", "txt"]
+    },
+    "entrypoint":{
+        "openText":"Une question?",
+        "closeText":""
+    },
+    "liveChatScreen": {
+        "chatStartedLabel": "Le chat a commencé",
+        "inputMessagePlaceholder": "Tapez votre message"
+    },
+    "startupIconUrl": ""
+}

@@ -1,0 +1,41 @@
+{
+    "routing": {
+        "brand": "BOSCH",
+        "language": "ES",
+        "country": "ES"
+    },
+    "primaryColor": "#005691",
+    "welcomeMessage": "¡Bienvenido!  Un agente estará contigo en un momento.",
+    "headerText": "Tienes alguna duda",
+    "concierge": {
+        "isEnabled": true,
+        "title": "Tu equipo Bosch",
+        "byline": "En que podemos ayudarte?",
+        "avatarUrl": "./static/images/bsh-chat-banner.png"
+    },
+    "preengagementForm": {
+        "isEnabled": true,
+        "titleText": "¡Hola!",
+        "subtitleText": "Estamos aquí para ayudar. Por favor, danos algo de información para empezar.",
+        "formFieldLabels": {
+            "phoneNumber": "número de teléfono",
+            "name": "Nombre",
+            "email": "Identificación de correo",
+            "query": "como podemos ayudarte",
+            "phoneNumberPlaceholder": "por favor ingrese el número de teléfono",
+            "namePlaceholder": "por favor, escriba su nombre",
+            "emailPlaceholder": "Por favor, introduzca su dirección de correo electrónico",
+            "queryPlaceholder": "Hacer una pregunta"
+        },
+        "startChatText": "Comenzar chat",
+        "hiddenFields": [
+            "query",
+            "email"
+        ]
+    },
+    "liveChatScreen": {
+        "chatStartedLabel": "Charla iniciada",
+        "inputMessagePlaceholder": "Escribe tu mensaje"
+    },
+    "startupIconUrl": "./static/images/entrypoint-image-spain.jpeg"
+}

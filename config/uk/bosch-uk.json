@@ -1,0 +1,49 @@
+{
+    "routing": {
+        "brand": "BOSCH",
+        "language": "EN",
+        "country": "UK"
+    },
+    "primaryColor": "#005691",
+    "welcomeMessage": "Welcome {{name}}!  An agent will be with you in a moment.",
+    "headerText": "Chat with us",
+    "concierge": {
+        "isEnabled": true,
+        "title": "Customer Service",
+        "byline": "Please write your question and press 'Enter'.",
+        "avatarUrl": "https://d1a73vvqvlgmvs.cloudfront.net/static/images/j9PDZBnk6HyX7lD99r3vAO9JHKJPayfF-concierge.jpg"
+    },
+    "preengagementForm": {
+        "isEnabled": true,
+        "titleText": "¡Hello!",
+        "subtitleText": "We are here to help you. Please give us some information to get started.",
+        "formFieldLabels": {
+            "phoneNumber": "Phone number:",
+            "name": "Name:",
+            "email": "Email:",
+            "query": "Message",
+            "phoneNumberPlaceholder": "Please, enter your phone number",
+            "namePlaceholder": "Please, enter your name",
+            "emailPlaceholder": "Please, enter your email",
+            "queryPlaceholder": "Please, enter your message"
+        },
+        "startChatText": "Start chat",
+        "hiddenFields": [
+            
+        ]
+    },
+    "fileAttachment":{
+        "enabled":true,   
+        "maxFileSize": 10485760,
+        "acceptedExtensions": ["jpg", "jpeg", "png", "pdf", "gif", "txt"]
+    },
+    "entrypoint":{
+        "openText":"Chat with Us",
+        "closeText":""
+    },
+    "liveChatScreen": {
+        "chatStartedLabel": "Chat started",
+        "inputMessagePlaceholder": "Type yor message"
+    },
+    "startupIconUrl": ""
+}
